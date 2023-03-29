@@ -1,0 +1,19 @@
+--- 
+Building: 
+  allOf: 
+    - 
+      $ref: "./ngsi-ld.yaml#/Common"
+  description: |
+      This entity contains a description of a Building.
+  properties: 
+    address: 
+      description: "The adress of the building in a string format"
+      type: string
+      x-ngsi: 
+        model: "https://schema.org/address"
+        type: Property
+    description: 
+      $ref: "./ngsi-ld.yaml#/description"
+    location: 
+      $ref: "./ngsi-ld.yaml#/location"
+  type: object

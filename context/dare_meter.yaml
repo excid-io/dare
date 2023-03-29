@@ -1,0 +1,20 @@
+--- 
+Meter: 
+  allOf: 
+    - 
+      $ref: "./ngsi-ld.yaml#/Common"
+  description: |
+      A metering device.
+  properties: 
+    power:
+      x-ngsi:
+        uri: 'https://w3id.org/saref#Power'
+        model: 'https://schema.org/Number'
+        properties: 
+          unitCode:
+            $ref: "ngsi-ld.yaml#/unitCode"
+      type: number
+      format: float
+      description: A power measurement
+  
+  type: object

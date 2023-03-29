@@ -1,0 +1,31 @@
+--- 
+components: 
+  schemas: 
+    Building:     
+      allOf:
+        - $ref: "./dare_building.yaml#/Building"
+    
+    Meter:     
+      allOf:
+        - $ref: "./dare_meter.yaml#/Meter"
+
+
+info: 
+  description: "Model Definitions for the DARE project - https://excid-io.github.io/dare/"
+  title: DARE Data Models
+  version: "1.0.0"
+openapi: "3.0.0"
+
+
+# These paths are merely representative.
+paths: 
+  /ngsi-ld/v1/entities: 
+    get: 
+      responses: 
+        ? "200"
+        : 
+          description:  OK
+          content: 
+            application/ld+json: 
+              schema: 
+                type: object
