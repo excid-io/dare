@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "type": "@type",
+        "id": "@id",
+        "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
+        "fiware": "https://uri.fiware.org/ns/data-models#",
+        "schema": "https://schema.org/",
+        "Building": "fiware:Building",
+        "Meter": "fiware:Meter",
+        "address": "fiware:address",
+        "dateCreated": "fiware:dateCreated",
+        "dateModified": "fiware:dateModified",
+        "description": "ngsi-ld:description",
+        "location": "ngsi-ld:location",
+        "power": "fiware:power"
+    }
+}
