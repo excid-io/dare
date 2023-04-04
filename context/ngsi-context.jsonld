@@ -3,15 +3,16 @@
         "type": "@type",
         "id": "@id",
         "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
-        "fiware": "https://uri.fiware.org/ns/data-models#",
         "schema": "https://schema.org/",
-        "Building": "fiware:Building",
-        "Meter": "fiware:Meter",
-        "address": "fiware:address",
-        "dateCreated": "fiware:dateCreated",
-        "dateModified": "fiware:dateModified",
+        "dare": "https://excid-io.github.io/dare/context/context.html#",
+        "saref": "https://w3id.org/saref#",
+        "Building": "dare:Building",
+        "Meter": "dare:Meter",
+        "address": "schema:address",
+        "dateCreated": "ngsi-ld:dateCreated",
+        "dateModified": "ngsi-ld:dateModified",
         "description": "ngsi-ld:description",
         "location": "ngsi-ld:location",
-        "power": "fiware:power"
+        "power": "saref:power"
     }
 }

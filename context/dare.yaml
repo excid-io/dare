@@ -4,10 +4,13 @@ components:
     Building:     
       allOf:
         - $ref: "./dare_building.yaml#/Building"
-    
+      x-ngsi:
+        uri-prefix: "https://excid-io.github.io/dare/context/context.html#"
     Meter:     
       allOf:
         - $ref: "./dare_meter.yaml#/Meter"
+      x-ngsi:
+        uri-prefix: "https://excid-io.github.io/dare/context/context.html#"
 
 
 info: 

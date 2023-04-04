@@ -10,6 +10,8 @@ Common:
         auto-gen: true
         model: "https://schema.org/DateTime"
         type: Property
+        uri: "https://uri.etsi.org/ngsi-ld/dateCreated"
+        uri-prefix: "https://uri.etsi.org/ngsi-ld/"
     dateModified: 
       description: "Update timestamp of this entity.\n"
       format: date-time
@@ -19,6 +21,8 @@ Common:
         attr-type: Property
         auto-gen: true
         model: "https://schema.org/DateTime"
+        uri: "https://uri.etsi.org/ngsi-ld/dateModified"
+        uri-prefix: "https://uri.etsi.org/ngsi-ld/"
     id: 
       description: "URN holding the id of the attribute\n"
       type: string

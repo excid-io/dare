@@ -8,7 +8,7 @@ Meter:
   properties: 
     power:
       x-ngsi:
-        uri: 'https://w3id.org/saref#Power'
+        uri-prefix: 'https://w3id.org/saref#'
         model: 'https://schema.org/Number'
         properties: 
           unitCode:

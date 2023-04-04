@@ -10,7 +10,7 @@ Building:
       description: "The adress of the building in a string format"
       type: string
       x-ngsi: 
-        model: "https://schema.org/address"
+        uri-prefix: "https://schema.org/"
         type: Property
     description: 
       $ref: "./ngsi-ld.yaml#/description"
