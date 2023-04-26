@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "type": "@type",
+        "id": "@id",
+        "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
+        "schema": "https://schema.org/",
+        "dare": "https://excid-io.github.io/dare/context/contexta.html#",
+        "testattribute":"dare:test"
+    }
+}
