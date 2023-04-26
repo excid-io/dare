@@ -5,6 +5,7 @@
         "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
         "schema": "https://schema.org/",
         "dare": "https://excid-io.github.io/dare/context/contexta.html#",
-        "testattribute":"dare:test"
+        "testattribute":"dare:test",
+        "description":"dare:description"
     }
 }
