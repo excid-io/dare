@@ -6,7 +6,6 @@
         "schema": "https://schema.org/",
         "dare": "https://excid-io.github.io/dare/context/context.html#",
         "saref": "https://w3id.org/saref#",
-        "smart":
         "Building": "dare:building",
         "location": "ngsi-ld:location",
         "description": "schema:description",
@@ -17,8 +16,8 @@
         "AirQualitySensor": "dare:AirQualitySensor",
         "temperature": "saref:temperature",
         "humidity": "saref:humidity",
-        "gas_carbon_dioxide ": "dare:gas_carbon_dioxide ",
-        "generic_volatile_organic_compound ": "dare:generic_volatile_organic_compound ",
+        "gas_carbon_dioxide ": "dare:gas_carbon_dioxide",
+        "generic_volatile_organic_compound ": "dare:generic_volatile_organic_compound",
         "installedIn": "dare:installedIn",
         "dateCreated": "ngsi-ld:dateCreated",
         "dateModified": "ngsi-ld:dateModified"        
