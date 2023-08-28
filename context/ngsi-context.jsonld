@@ -28,6 +28,8 @@
         "HeatingHours":"dare:HeatingHours",
         "Faults":"dare:Faults",
         "BuildingMeter":"dare:BuildingMeter",
+        "BoilerModulation":"dare:BoilerModulation",
+        "BoilerTemperature":"dare:BoilerTemperature",
         "installedIn": "dare:installedIn",
         "dateCreated": "ngsi-ld:dateCreated",
         "dateModified": "ngsi-ld:dateModified"        
